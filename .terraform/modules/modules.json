@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"docker-image","Source":"./modules/docker-image","Dir":"modules/docker-image"},{"Key":"lambda_ecr","Source":"./modules/ecr","Dir":"modules/ecr"},{"Key":"lambda_function","Source":"./modules/lambda-function","Dir":"modules/lambda-function"}]}
