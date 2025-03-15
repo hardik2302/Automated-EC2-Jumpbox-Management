@@ -32,10 +32,10 @@ This project automates the shutdown of AWS EC2 jumpboxes to optimize costs and e
 - git clone https://github.com/hardik2302/Automated-EC2-Jumpbox-Management.git
 - cd Automated-EC2-Jumpbox-Management
 
-Initialize and apply Terraform:
+**Initialize and apply Terraform:**
 
-**terraform init**
-**terraform apply**
+- terraform init
+- terraform apply
 
 ## Configuration
 
