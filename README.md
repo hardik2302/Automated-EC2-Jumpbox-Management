@@ -19,3 +19,31 @@ This project automates the shutdown of AWS EC2 jumpboxes to optimize costs and e
 ## 📌 How It Works  
 1. **Lambda Function**: Scans AWS for EC2 instances tagged as jumpboxes.  
 2. **Filtering**: Identifies instances based on the tag format:  
+
+## Prerequisites
+
+- **AWS CLI installed and configured**
+- **Terraform installed**
+- **IAM permissions to deploy AWS resources**
+
+## Steps
+
+**Clone this repository:**
+- git clone https://github.com/hardik2302/Automated-EC2-Jumpbox-Management.git
+- cd Automated-EC2-Jumpbox-Management
+
+Initialize and apply Terraform:
+
+**terraform init**
+**terraform apply**
+
+## 🔧 Configuration
+
+**Schedule Modification:** Update the EventBridge rule in Terraform to change execution time.
+
+Feel free to open issues or submit pull requests for improvements!
+
+🔗 Connect
+
+For support or collaboration, reach out via GitHub issues.
+
